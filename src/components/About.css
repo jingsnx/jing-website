@@ -1,0 +1,35 @@
+.about {
+    height: -webkit-calc(100vh - 68px);
+    background-color: var(--bgcolor);
+    
+    display: flex-column;
+    justify-content: center;
+    
+}
+.about-body{
+    display: flex;
+    justify-content: center;
+}
+
+.about-text{
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.about-title{
+    font-family: 'Libre Bodoni', serif;
+    padding: 50px;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+
+.image{
+    height:500px;
+    padding-right: 50px;
+}
+
+.text-container{
+    font-size: 25px;
+    padding-top: 5%;
+    width: 30%;
+}

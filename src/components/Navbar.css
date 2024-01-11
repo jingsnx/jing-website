@@ -4,7 +4,7 @@
     width: 100%;
     height: 68px;
     color: var(--text);
-    font-family: 'Libre Bodoni', serif;
+    font-family: 'Libre Caslon Display', serif;
     z-index: 2;
     background-color: var(--bgcolor);
 }
@@ -18,7 +18,7 @@
     height: 100%;
 }
 .logo{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav-menu{
@@ -27,6 +27,6 @@
 }
 
 .nav-item{
-    font-size: 20px;
+    font-size: 25px;
     padding-inline-start: 2rem;
 }

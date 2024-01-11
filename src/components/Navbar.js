@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from 'react-scroll'
-import { useState } from 'react';
 import './Navbar.css'
-import '../../index.css'
+import '../index.css'
 
 export default function Navbar() {
     return (
@@ -14,17 +13,17 @@ export default function Navbar() {
               <ul className='nav-menu'>
                 <li className='nav-item'>
                   <Link smooth spy to='home' offset={-100} duration={500}>
-                    Home
+                    home
                   </Link>
                 </li>
                 <li className='nav-item'>
                   <Link smooth spy to='about' offset={-100} duration={500}>
-                    About
+                    about me
                   </Link>
                 </li>
                 <li className='nav-item'>
                   <Link smooth spy to='projects' offset={-100} duration={500}>
-                    Projects
+                    projects
                   </Link>
                 </li>
               </ul>

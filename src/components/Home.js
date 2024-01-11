@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-import '../../index.css'
-import pinkcircle from '../../images/pinkcircle.png'
-import purplecircle from '../../images/purplecircle.png'
+import '../index.css'
+import pinkcircle from '../images/pinkcircle.png'
+import purplecircle from '../images/purplecircle.png'
 
 export default function Home() {
     return (
@@ -11,7 +11,7 @@ export default function Home() {
                 <h1 className='hi'>
                     hi, im jing
                 </h1>
-                <p>
+                <p className='desc'>
                     designer and developer
                 </p>
             </div>
