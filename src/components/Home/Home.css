@@ -1,0 +1,37 @@
+.home{
+    height: -webkit-calc(100vh - 68px);
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.text {
+    position: absolute;
+    display: flex-column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.hi{
+    font-weight: 700;
+    font-size: 120px;
+    margin: 0;
+}
+
+.pinkcirc {
+    padding-left: 20px;
+    padding-bottom: 150px;
+    height:500px;
+}
+
+.purplecirc {
+    padding: 50px;
+    height: 350px;
+}
