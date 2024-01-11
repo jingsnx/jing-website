@@ -1,14 +1,13 @@
 .about {
     height: -webkit-calc(100vh - 68px);
     background-color: var(--bgcolor);
-    
     display: flex-column;
     justify-content: center;
-    
 }
 .about-body{
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .about-text{
@@ -25,11 +24,18 @@
 
 .image{
     height:500px;
-    padding-right: 50px;
+    padding-right: 75px;
 }
 
 .text-container{
     font-size: 25px;
-    padding-top: 5%;
+    padding-top: 8%;
     width: 30%;
+}
+
+.link-item{
+    font-family: 'Libre Caslon Display', serif;
+    color: var(--text);
+    font-size: 25px;
+    padding-inline-end: 15px;
 }
