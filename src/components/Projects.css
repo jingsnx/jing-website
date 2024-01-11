@@ -1,0 +1,18 @@
+.projects{
+    height: -webkit-calc(100vh - 68px);
+    background-color: var(--bgcolor);
+}
+
+.projects-title{
+    font-family: 'Libre Bodoni', serif;
+    padding: 50px;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+
+.card-grid{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
