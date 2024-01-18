@@ -3,7 +3,6 @@
     height: 500px;
     background-color: var(--accent2);
     padding: 15px;
-    margin-inline-end: 20px;
 }
 
 .card h1{

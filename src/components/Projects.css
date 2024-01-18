@@ -1,18 +1,27 @@
 .projects{
-    height: -webkit-calc(100vh - 68px);
+    height: fit-content;
     background-color: var(--bgcolor);
+    display: flex-column;
+    justify-content: center;
 }
 
+
 .projects-title{
+    padding-top: 50px;
     font-family: 'Libre Bodoni', serif;
-    padding: 50px;
     text-align: center;
     font-size: 100px;
     margin: 0;
 }
 
-.card-grid{
-    padding-top: 50px;
+.card-grid-container {
+    padding: 75px 0 75px;
     display: flex;
     justify-content: center;
+}
+.card-grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 25px;
+    column-gap: 25px;
 }

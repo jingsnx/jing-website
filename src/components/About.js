@@ -13,10 +13,10 @@ export default function About() {
                 </div>
                 <div className='text-container'>
                     <p className='about-text'>
-                        hi, i'm jing! i'm a computer science student at stevens institute of technology.
+                        Hi, I'm Jing! I'm a computer science student at Stevens Institute of Technology.
                     </p>
                     <p className='about-text'>
-                        i'm interested in pursuing a career in web development. in my free time i enjoy doing graphic design work and building things like keyboards.
+                        I'm interested in pursuing a career in web development. In my free time I enjoy doing graphic design work and building things like keyboards.
                     </p>
                     <div className='links'>
                         <a href='https://github.com/jingsnx' target='_blank' className='link-item'>
@@ -27,6 +27,9 @@ export default function About() {
                         </a>
                         <a className='link-item'>
                             contact
+                        </a>
+                        <a className='link-item'>
+                            resume
                         </a>
                     </div>
                 </div>

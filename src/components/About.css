@@ -35,6 +35,7 @@
 
 .link-item{
     font-family: 'Libre Caslon Display', serif;
+    text-decoration: underline;
     color: var(--text);
     font-size: 25px;
     padding-inline-end: 15px;

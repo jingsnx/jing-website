@@ -7,6 +7,7 @@
     font-family: 'Libre Caslon Display', serif;
     z-index: 2;
     background-color: var(--bgcolor);
+    /*box-shadow: 0 2.5px 10px var(--text);*/
 }
 
 .navbar{
@@ -19,6 +20,7 @@
 }
 .logo{
     font-size: 25px;
+    cursor: pointer;
 }
 
 .nav-menu{
@@ -29,4 +31,10 @@
 .nav-item{
     font-size: 25px;
     padding-inline-start: 2rem;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    color:var(--accent1);
+    transition: 0.5s;
 }
