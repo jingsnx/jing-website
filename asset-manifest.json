@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jing-website/static/css/main.97ce2b6a.css",
+    "main.js": "/jing-website/static/js/main.c1d7ef99.js",
+    "static/js/787.42b4ba45.chunk.js": "/jing-website/static/js/787.42b4ba45.chunk.js",
+    "static/media/nukemap3dcard.png": "/jing-website/static/media/nukemap3dcard.e3c0e0859ae9280168b6.png",
+    "static/media/personalsitecard.png": "/jing-website/static/media/personalsitecard.c3a48f3b6d49848de1a6.png",
+    "static/media/pinkcircle.png": "/jing-website/static/media/pinkcircle.36e20ba91209d8ec7e2d.png",
+    "static/media/aboutimg.png": "/jing-website/static/media/aboutimg.34dc8417d17dc2882e6b.png",
+    "static/media/cryptoclickercard.png": "/jing-website/static/media/cryptoclickercard.ba28e8fde0704fcbdf21.png",
+    "static/media/purplecircle.png": "/jing-website/static/media/purplecircle.59455211ffa2574ac9e2.png",
+    "index.html": "/jing-website/index.html",
+    "main.97ce2b6a.css.map": "/jing-website/static/css/main.97ce2b6a.css.map",
+    "main.c1d7ef99.js.map": "/jing-website/static/js/main.c1d7ef99.js.map",
+    "787.42b4ba45.chunk.js.map": "/jing-website/static/js/787.42b4ba45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ce2b6a.css",
+    "static/js/main.c1d7ef99.js"
+  ]
+}
