@@ -3,11 +3,13 @@
     background-color: var(--bgcolor);
     display: flex-column;
     justify-content: center;
+    
 }
 .about-body{
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    align-items: center;
 }
 
 .about-text{
@@ -29,8 +31,9 @@
 
 .text-container{
     font-size: 25px;
-    padding-top: 8%;
     width: 30%;
+    height: 100%;
+    
 }
 
 .link-item{

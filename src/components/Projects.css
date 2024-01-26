@@ -1,5 +1,5 @@
 .projects{
-    height: fit-content;
+    height: -webkit-calc(100vh - 68px);
     background-color: var(--bgcolor);
     display: flex-column;
     justify-content: center;

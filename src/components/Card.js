@@ -6,7 +6,8 @@ export const Card = ({
     imgSource,
     title,
     desc,
-    skills,
+    languages,
+    tools,
     linkText,
     link
 }) => {
@@ -15,7 +16,8 @@ export const Card = ({
             <img src={imgSource} className='card-img'></img>
             <h1 className='card-title'>{title}</h1>
             <p className='card-desc'>{desc}</p>
-            <p className='skills'>skills: {skills}</p>
+            <p className='skills'>languages: {languages}</p>
+            {tools && <p className='skills'>tools: {tools}</p>}
             <a href={link}>{linkText}</a>
         </div>
     );

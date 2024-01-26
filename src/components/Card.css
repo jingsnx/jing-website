@@ -1,8 +1,14 @@
 .card{
     width: 350px;
-    height: 500px;
+    height: 400px;
     background-color: var(--accent2);
     padding: 15px;
+}
+
+.card-img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .card h1{
@@ -10,6 +16,9 @@
     margin: 0;
 }
 
+.card-desc{
+    padding-top: 10px;
+}
 .card p{
     font-family: 'Libre Caslon Text', serif;
     margin: 0;

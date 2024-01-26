@@ -16,7 +16,7 @@ export default function About() {
                         Hi, I'm Jing! I'm a computer science student at Stevens Institute of Technology.
                     </p>
                     <p className='about-text'>
-                        I'm interested in pursuing a career in web development. In my free time I enjoy doing graphic design work and building things like keyboards.
+                        I'm interested in pursuing a career in web development. In my free time I enjoy doing graphic design work and building keyboards.
                     </p>
                     <div className='links'>
                         <a href='https://github.com/jingsnx' target='_blank' className='link-item'>
@@ -25,11 +25,8 @@ export default function About() {
                         <a href='https://www.linkedin.com/in/jing-ngo/' target='blank' className='link-item'>
                             linkedin
                         </a>
-                        <a className='link-item'>
+                        <a href ='mailto:jingsngo@gmail.com' className='link-item'>
                             contact
-                        </a>
-                        <a className='link-item'>
-                            resume
                         </a>
                     </div>
                 </div>
