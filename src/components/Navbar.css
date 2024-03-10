@@ -47,7 +47,7 @@
         position: sticky;
         top: 0;
         width: 100dvw;
-        height: max-content;
+        height: 124px;
         color: var(--text);
         font-family: 'Libre Caslon Display', serif;
         z-index: 2;
@@ -55,7 +55,6 @@
     }
     .navbar{
         flex-direction: column;
-        
     }
     .nav-menu{
         padding: 0;
