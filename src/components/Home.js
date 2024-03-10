@@ -16,8 +16,8 @@ export default function Home() {
                 </p>
             </div>
             <div className='circles'>
-                <img src={purplecircle} className='purplecirc'></img>
-                <img src={pinkcircle} className='pinkcirc'></img>
+                <img src={purplecircle} className='purplecirc' alt=''></img>
+                <img src={pinkcircle} className='pinkcirc' alt=''></img>
             </div>
         </div>
     );

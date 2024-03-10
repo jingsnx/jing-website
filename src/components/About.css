@@ -1,9 +1,9 @@
 .about {
-    height: -webkit-calc(100vh - 68px);
+    height: -webkit-calc(100dvh - 68px);
+    width: 100dvw;
     background-color: var(--bgcolor);
     display: flex-column;
     justify-content: center;
-    
 }
 .about-body{
     display: flex;
@@ -17,29 +17,65 @@
 }
 
 .about-title{
+    padding-top: 3%;
+    padding-bottom: 5%;
     font-family: 'Libre Bodoni', serif;
-    padding: 50px;
     text-align: center;
-    font-size: 100px;
+    font-size: 7dvb;
     margin: 0;
 }
 
 .image{
-    height:500px;
-    padding-right: 75px;
+    max-width: 32.5dvw;
+    padding: 3dvh 3dvw 0;
 }
 
 .text-container{
-    font-size: 25px;
+    padding-right: 5dvb;
+    font-size: 2dvb;
     width: 30%;
     height: 100%;
-    
 }
 
 .link-item{
     font-family: 'Libre Caslon Display', serif;
     text-decoration: underline;
     color: var(--text);
-    font-size: 25px;
+    font-size: 2dvb;
     padding-inline-end: 15px;
+}
+
+@media screen and (max-width:600px){
+    .about {
+        height: max-content;
+        width: 100dvw;
+        background-color: var(--bgcolor);
+        display: flex-column;
+        justify-content: center;
+    }
+    .about-body{
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 18%;
+        align-items: center;
+    }
+    .text-container{
+        font-size: 2dvb;
+        text-align: center;
+        width: 75%;
+        padding: 0;
+        height: 100%;
+    }
+    .link-item{
+        font-family: 'Libre Caslon Display', serif;
+        text-decoration: underline;
+        color: var(--text);
+        font-size: 2dvb;
+        padding-inline: 15px;
+    }
+    .image{
+        padding: 0;
+        max-width: 0dvw;
+    }
 }
